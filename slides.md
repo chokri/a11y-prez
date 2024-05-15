@@ -19,7 +19,8 @@ mdc: true
 
 Introduction to Web Accessibility 
 
---
+
+---
 transition: fade-out
 ---
 
