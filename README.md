@@ -1,8 +1,11 @@
-# A11y Prez
+# Web Accessibility Slides 
 
+To start the slide show:
 
-source:
+- `npm install`
+- `npm run dev`
+- visit http://localhost:3030
 
-    - https://medium.com/kubo/seeing-the-unseen-a-designers-guide-for-the-color-blind-8a6da64fe14c
-    - https://a11y.coffee/
+Edit the [slides.md](./slides.md) to see the changes.
 
+Learn more about Slidev on [documentations](https://sli.dev/).
