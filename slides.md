@@ -100,15 +100,16 @@ image: https://cover.sli.dev
 
 Use code snippets and get the highlighting directly, and even types hover![^1]
 
-```html {all|1|3|2|all} twoslash
-<div class="preference">
-  <label for="cheese">Do you like cheese?</label>
-  <input type="checkbox" name="cheese" id="cheese" />
+```html {all|1|3|6|all} twoslash
+<div role="navigation" aria-label="Primary">
+  <ul>
+    <li>...a list of links here ...</li>
+  </ul>
 </div>
-
-<div class="preference">
-  <label for="peas">Do you like peas?</label>
-  <input type="checkbox" name="peas" id="peas" />
+<div role="navigation" aria-label="Secondary">
+  <ul>
+    <li>...a list of links here ...</li>
+  </ul>
 </div>
 ```
 
