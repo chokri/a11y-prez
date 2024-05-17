@@ -25,32 +25,90 @@ transition: fade-out
 ---
 
 # Introduction to Web Accessibility  
+<p>
+ When websites and web tools are properly designed and coded, people with disabilities can:
 
-
+- perceive, understand, navigate, and interact with the Web
+- contribute to the Web
+</p>
 
 ---
-transition: slide-up
-level: 2
+transition: fade-out
 ---
 
-# Navigation
+# Introduction to Web Accessibility  
 
-<Toc v-click minDepth="1" maxDepth="2"></Toc>
+<p>
+Web accessibility encompasses all disabilities that affect access to the Web, including:
+
+  - auditory
+  - cognitive
+  - neurological
+  - physical
+  - speech
+  - visual
+</p>
+
+---
+transition: fade-out
+---
+
+# Introduction to Web Accessibility  
+
+<p>
+Web accessibility also benefits people without disabilities, for example:
+
+- people using mobile phones, smart watches, smart TVs, and other devices with small screens, different input modes, etc.
+- older people with changing abilities due to ageing
+- people with “temporary disabilities” such as a broken arm or lost glasses
+
+</p>
+
+---
+layoutClass: gap-16
+---
+
+# Making the Web Accessible 
+
+Web accessibility relies on several components that work together. Some of these include:
+
+- **Web content** - refers to any part of a website, including text, images, forms, and multimedia, as well as any markup code, scripts, applications, and such.
+
+- **User agents** - software that people use to access web content, including desktop graphical browsers, voice browsers, mobile phone browsers, multimedia players, plug-ins, and some assistive technologies.
+
+- **Authoring tools** - software or services that people use to produce web content, including code editors, document conversion tools, content management systems, blogs, database scripts, and other tools.
 
 ---
 layout: two-cols
 layoutClass: gap-16
 ---
 
-# Table of contents
+# Making the Web Accessible 
 
-You can use the `Toc` component to generate a table of contents for your slides:
+Web accessibility relies on several components that work together. Some of these include:
 
-```html
-<Toc minDepth="1" maxDepth="1"></Toc>
-```
+- Web content - refers to any part of a website, including text, images, forms, and multimedia, as well as any markup code, scripts, applications, and such.
+- User agents - software that people use to access web content, including desktop graphical browsers, voice browsers, mobile phone browsers, multimedia players, plug-ins, and some assistive technologies.
+- Authoring tools - software or services that people use to produce web content, including code editors, document conversion tools, content management systems, blogs, database scripts, and other tools.
 
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
+
+::right::
+
+Okey, this text is on the right, righ?
+
+--
+layout: two-cols
+layoutClass: gap-16
+---
+
+# Making the Web Accessible 
+
+Web accessibility relies on several components that work together. Some of these include:
+
+- Web content - refers to any part of a website, including text, images, forms, and multimedia, as well as any markup code, scripts, applications, and such.
+- User agents - software that people use to access web content, including desktop graphical browsers, voice browsers, mobile phone browsers, multimedia players, plug-ins, and some assistive technologies.
+- Authoring tools - software or services that people use to produce web content, including code editors, document conversion tools, content management systems, blogs, database scripts, and other tools.
+
 
 ::right::
 
