@@ -1,11 +1,11 @@
 ---
-theme: seriph
-background: https://images.unsplash.com/photo-1619441207978-3d326c46e2c9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 
-title: Wed Accessibility 
+theme: apple-basic
+background: https://images.unsplash.com/photo-1619441207978-3d326c46e2c9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+title: Wed Accessibility
 info: |
   Presentation slides for developers.
 
-  Introduction about Web Accessibility 
+  Introduction about Web Accessibility
 class: text-center
 highlighter: shiki
 drawings:
@@ -14,61 +14,61 @@ transition: slide-left
 mdc: true
 ---
 
-# Web Accessibility 
+# Introduction to Web Accessibility
 
 
-Introduction to Web Accessibility 
+---
+transition: fade-out
+layout: image-right
+image: assets/handicap_parking_marker.jpg
+---
+
+## What is A11y ?
+
+- Accessibility is the concept of whether a product or service can be used by everyone, regardless of how they encounter it.
+
+- While accessibility laws exist to aid people with disabilities, designers should strive to accommodate all potential users in various contexts of use.
 
 
 ---
 transition: fade-out
 ---
 
-# Introduction to Web Accessibility  
-<p>
+
  When websites and web tools are properly designed and coded, people with disabilities can:
 
 - perceive, understand, navigate, and interact with the Web
 - contribute to the Web
-</p>
+
 
 ---
 transition: fade-out
 ---
 
-# Introduction to Web Accessibility  
-
-<p>
 Web accessibility encompasses all disabilities that affect access to the Web, including:
 
+  - visual
   - auditory
   - cognitive
   - neurological
   - physical
   - speech
-  - visual
-</p>
+
 
 ---
 transition: fade-out
 ---
 
-# Introduction to Web Accessibility  
-
-<p>
 Web accessibility also benefits people without disabilities, for example:
 
 - people using mobile phones, smart watches, smart TVs, and other devices with small screens, different input modes, etc.
 - older people with changing abilities due to ageing
 - people with “temporary disabilities” such as a broken arm or lost glasses
 
-</p>
 
 ---
-layoutClass: gap-16
+transition: fade-out
 ---
-
-# Making the Web Accessible 
 
 Web accessibility relies on several components that work together. Some of these include:
 
@@ -79,11 +79,8 @@ Web accessibility relies on several components that work together. Some of these
 - **Authoring tools** - software or services that people use to produce web content, including code editors, document conversion tools, content management systems, blogs, database scripts, and other tools.
 
 ---
-layout: two-cols
 layoutClass: gap-16
 ---
-
-# Making the Web Accessible 
 
 Web accessibility relies on several components that work together. Some of these include:
 
@@ -91,17 +88,11 @@ Web accessibility relies on several components that work together. Some of these
 - User agents - software that people use to access web content, including desktop graphical browsers, voice browsers, mobile phone browsers, multimedia players, plug-ins, and some assistive technologies.
 - Authoring tools - software or services that people use to produce web content, including code editors, document conversion tools, content management systems, blogs, database scripts, and other tools.
 
-
-::right::
-
-Okey, this text is on the right, righ?
-
 --
 layout: two-cols
 layoutClass: gap-16
 ---
 
-# Making the Web Accessible 
 
 Web accessibility relies on several components that work together. Some of these include:
 
@@ -141,7 +132,7 @@ layout: image-right
 image: https://cover.sli.dev
 ---
 
-# Example of HTML 
+# Example of HTML
 
 Use code snippets and get the highlighting directly, and even types hover![^1]
 
@@ -163,4 +154,4 @@ Use code snippets and get the highlighting directly, and even types hover![^1]
 transition: fade-out
 ---
 
-# Thank you   
+# Thank you
