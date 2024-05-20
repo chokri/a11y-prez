@@ -1,6 +1,6 @@
 ---
 theme: apple-basic
-title: Wed Accessibility
+title: Web Accessibility
 info: |
   Introduction about Web Accessibility
 class: text-center
@@ -14,6 +14,11 @@ layout: center
 
 # Introduction to Web Accessibility
 
+---
+transition: fade-out
+---
+
+<Toc />
 
 ---
 transition: fade-out
@@ -21,7 +26,7 @@ layout: image-right
 image: assets/handicap_parking_marker.jpg
 ---
 
-## What is A11y?
+## 1 - What is A11y?
 
 - **A11y** stands for __accessibility__.
 - With A11y, people with disabilities can:
@@ -44,7 +49,7 @@ transition: fade-out
 layout: two-cols
 ---
 
-## What kind of disability ?
+## 2 - What kind of disability ?
 
 Web accessibility means making the internet work for everyone, no matter what kind of disability they might have. This includes:
 
@@ -74,12 +79,12 @@ layout: image-right
 image: assets/old-lady-crazy.gif
 ---
 
-## What is A11y ?
+## 3 - Everyone is concerned 
 
 Web accessibility also benefits people without disabilities, for example:
 
 - people using mobile phones, smart watches, smart TVs, and other devices with small screens, different input modes, etc.
-- older people with changing abilities due to ageing
+- people with changing abilities due to ageing
 - people with “temporary disabilities” such as a broken arm or lost glasses
 
 
@@ -89,7 +94,7 @@ layout: image-right
 image: assets/Disabled-Student-Working.jpg
 ---
 
-# Web Accessibility Tools
+## 4 - Web Accessibility Tools
 
 - **Screen Narrators**
 - **Braille Readers**
@@ -108,18 +113,17 @@ image: assets/Disabled-Student-Working.jpg
 layout: section
 ---
 
-# How?
+# Accessibility In Practice 
 
 ---
-layout: image-right
-image: https://cover.sli.dev
+transition: fade-out
 ---
 
-# Skip Menu
+## 1 - Use Skip Menu
 
 **Skip link** to allow users to bypass repeated navigation content
 
-```html {all|1|3|6|all} twoslash
+```html {all|5|all} twoslash
 <header role="banner">
     <h1>Accessible Blog</h1>
     <nav role="navigation">
@@ -135,11 +139,11 @@ image: https://cover.sli.dev
 transition: fade-out
 ---
 
-# Use Semantic HTML
+## 2 - Use Semantic HTML
 
 Semantic HTML elements like `<article>`, `<nav>`, `<section>`, and `<aside>` provide meaningful information about the content of a page, which is especially helpful for screen readers and other assistive technologies. This makes web content more accessible to people with disabilities.
 
-```html {all|1|3|6|all} twoslash
+```html {all|1|2|5|all} twoslash
 <main id="maincontent" role="main">
     <article aria-labelledby="posttitle">
         <header>
@@ -161,11 +165,11 @@ Semantic HTML elements like `<article>`, `<nav>`, `<section>`, and `<aside>` pro
 transition: fade-out
 ---
 
-# Use area-label
+## 3 - Use area-label
 
 The `role` and `aria-label` attributes help assistive technologies understand the purpose of the element.
 
-```html {all|1|3|6|all} twoslash
+```html {all|2|12|all} twoslash
 <main id="maincontent" role="main">
     <article aria-labelledby="posttitle">
         <header>
@@ -187,7 +191,7 @@ The `role` and `aria-label` attributes help assistive technologies understand th
 transition: fade-out
 ---
 
-# Use Keyboard Navigation
+## 4 - Use Keyboard Navigation
 
 With `onkeypress` the link can be activated using the keyboard, not just with a mouse click.
 
@@ -206,7 +210,7 @@ transition: fade-out
 ---
 
 
-# Web Content Accessibility Guidelines (WCAG)
+## Web Content Accessibility Guidelines (WCAG)
 <a target="_blank" href="https://www.w3.org/WAI/standards-guidelines/wcag/" alt="WCAG">WCAG</a> specifies three different conformance levels they are:
 
 - A (lowest)
@@ -219,7 +223,7 @@ transition: fade-out
 transition: fade-out
 ---
 
-# WebAIM
+## WebAIM
 
 <a target="_blank" href="https://webaim.org/">WebAIM</a> provides a handy checklist with their recommendations.
 
