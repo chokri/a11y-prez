@@ -1,17 +1,15 @@
 ---
 theme: apple-basic
-background: https://images.unsplash.com/photo-1619441207978-3d326c46e2c9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 title: Wed Accessibility
 info: |
-  Presentation slides for developers.
-
   Introduction about Web Accessibility
 class: text-center
 highlighter: shiki
 drawings:
   persist: false
-transition: slide-left
+transition: fade-out
 mdc: true
+layout: center
 ---
 
 # Introduction to Web Accessibility
@@ -54,6 +52,7 @@ Web accessibility encompasses all disabilities that affect access to the Web, in
   - physical
   - speech
 
+<img width="500" src="assets/building-web-accessibility-barriers-guidelines-standards_01.jpg">
 
 ---
 transition: fade-out
@@ -79,6 +78,27 @@ Web accessibility relies on several components that work together. Some of these
 - **Authoring tools** - software or services that people use to produce web content, including code editors, document conversion tools, content management systems, blogs, database scripts, and other tools.
 
 ---
+transition: fade-out
+layout: image-right
+image: assets/Disabled-Student-Working.jpg
+---
+
+# Assitive Technologies
+
+These tools play a crucial role in making technology accessible and usable for individuals with various disabilities
+
+- **Screen Narrators**
+- **Braille Readers**
+- **Mouth Sticks**
+- **Head Wand**
+- **Signle-switch access**
+- **Sip and puff Sitch**
+- **Oversized trackball mouse**
+- **Adaptive Keyboard**
+- **Eye tracking glasses**
+- **Voice recording software**
+
+---
 layoutClass: gap-16
 ---
 
@@ -101,54 +121,73 @@ Web accessibility relies on several components that work together. Some of these
 - Authoring tools - software or services that people use to produce web content, including code editors, document conversion tools, content management systems, blogs, database scripts, and other tools.
 
 
-::right::
+---
+transition: fade-out
+layout: image-right
+image: assets/handicap_parking_marker.jpg
+---
 
-Okey, this text is on the right, righ?
+## How?
 
 ---
 layout: image-right
 image: https://cover.sli.dev
 ---
 
-# Code
+# Skip Menu
 
-Use code snippets and get the highlighting directly, and even types hover![^1]
-
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Example of HTML
-
-Use code snippets and get the highlighting directly, and even types hover![^1]
+**Skip link** to allow users to bypass repeated navigation content
 
 ```html {all|1|3|6|all} twoslash
-<div role="navigation" aria-label="Primary">
-  <ul>
-    <li>...a list of links here ...</li>
-  </ul>
-</div>
-<div role="navigation" aria-label="Secondary">
-  <ul>
-    <li>...a list of links here ...</li>
-  </ul>
-</div>
+<header role="banner">
+    <h1>Accessible Blog</h1>
+    <nav role="navigation">
+        <ul>
+            <li><a href="#maincontent">Skip to main content</a></li>
+            <!-- Other navigation items -->
+        </ul>
+    </nav>
+</header>
 ```
 
+---
+transition: fade-out
+---
+
+# Use area-label
+
+The `role` and `aria-label` attributes help assistive technologies understand the purpose of the element.
+
+```html {all|1|3|6|all} twoslash
+<main id="maincontent" role="main">
+    <article aria-labelledby="posttitle">
+        <header>
+            <h2 id="posttitle">Making Accessibility a Priority</h2>
+            <p><time datetime="2024-05-20">May 20, 2024</time></p>
+        </header>
+        <section>
+            <h3>Introduction</h3>
+            <p>Accessible web design is essential for all users...</p>
+        </section>
+        <footer>
+            <p>Posted by <a href="#authorbio" aria-describedby="authorname">Alex Doe</a></p>
+        </footer>
+    </article>
+    ...
+```
+
+
+---
+transition: fade-out
+---
+
+# Use Keyboard Navigation
+
+With `onkeypress` the link can be activated using the keyboard, not just with a mouse click.
+
+```html
+<a href="#" onclick="openMenu()" onkeypress="openMenu()">Open Menu</a>
+```
 
 ---
 transition: fade-out
