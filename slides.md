@@ -21,12 +21,52 @@ layout: image-right
 image: assets/handicap_parking_marker.jpg
 ---
 
-## What is A11y ?
+## What is A11y?
 
-- Accessibility is the concept of whether a product or service can be used by everyone, regardless of how they encounter it.
+- **A11y** stands for __accessibility__.
+- With A11y, people with disabilities can:
+  - perceive, understand, navigate, and interact with the Web
+  - contribute to the Web
 
-- While accessibility laws exist to aid people with disabilities, designers should strive to accommodate all potential users in various contexts of use.
+<!--
+ It means making sure that everything, from websites to buildings, can be used by as many people as possible. This includes people with disabilities.
 
+- There are rules to help people with disabilities, but it’s important for creators to think about all kinds of users in different situations.
+
+When websites and web tools are properly designed and coded, people with disabilities can:
+
+- perceive, understand, navigate, and interact with the Web
+- contribute to the Web
+-->
+
+---
+transition: fade-out
+layout: two-cols
+---
+
+## What kind of disability ?
+
+Web accessibility means making the internet work for everyone, no matter what kind of disability they might have. This includes:
+
+- Visual
+- Auditory
+- Cognitive
+- Neurological
+- Physical
+- Speech
+
+::right::
+<img style="margin-top:30%" src="assets/building-web-accessibility-barriers-guidelines-standards_01.jpg" />
+
+
+<!--
+- Visual: Helping people who have trouble seeing.
+- Auditory: Making sure people who have difficulty hearing can get information.
+- Cognitive: Assisting those with challenges in understanding or processing information.
+- Neurological: Supporting users with brain-related conditions.
+- Physical: Ensuring those with limited movement can navigate and interact.
+- Speech: Helping people with speech disabilities communicate and access content.
+-->
 
 ---
 transition: fade-out
@@ -35,34 +75,6 @@ image: assets/old-lady-crazy.gif
 ---
 
 ## What is A11y ?
-
- When websites and web tools are properly designed and coded, people with disabilities can:
-
-- perceive, understand, navigate, and interact with the Web
-- contribute to the Web
-
-
----
-transition: fade-out
-layout: two-cols
----
-
-## What is A11y ?
-
-Web accessibility encompasses all disabilities that affect access to the Web, including:
-
-  - visual
-  - auditory
-  - cognitive
-  - neurological
-  - physical
-  - speech
-
-::right::
-<img style="margin-top:30%" src="assets/building-web-accessibility-barriers-guidelines-standards_01.jpg" />
----
-transition: fade-out
----
 
 Web accessibility also benefits people without disabilities, for example:
 
@@ -73,25 +85,11 @@ Web accessibility also benefits people without disabilities, for example:
 
 ---
 transition: fade-out
----
-
-Web accessibility relies on several components that work together. Some of these include:
-
-- **Web content** - refers to any part of a website, including text, images, forms, and multimedia, as well as any markup code, scripts, applications, and such.
-
-- **User agents** - software that people use to access web content, including desktop graphical browsers, voice browsers, mobile phone browsers, multimedia players, plug-ins, and some assistive technologies.
-
-- **Authoring tools** - software or services that people use to produce web content, including code editors, document conversion tools, content management systems, blogs, database scripts, and other tools.
-
----
-transition: fade-out
 layout: image-right
 image: assets/Disabled-Student-Working.jpg
 ---
 
-# Assitive Technologies
-
-These tools play a crucial role in making technology accessible and usable for individuals with various disabilities
+# Web Accessibility Tools
 
 - **Screen Narrators**
 - **Braille Readers**
@@ -104,24 +102,13 @@ These tools play a crucial role in making technology accessible and usable for i
 - **Eye tracking glasses**
 - **Voice recording software**
 
----
-layoutClass: gap-16
----
-
-Web accessibility relies on several components that work together. Some of these include:
-
-- Web content - refers to any part of a website, including text, images, forms, and multimedia, as well as any markup code, scripts, applications, and such.
-- User agents - software that people use to access web content, including desktop graphical browsers, voice browsers, mobile phone browsers, multimedia players, plug-ins, and some assistive technologies.
-- Authoring tools - software or services that people use to produce web content, including code editors, document conversion tools, content management systems, blogs, database scripts, and other tools.
-
+<!-- These tools play a crucial role in making technology accessible and usable for individuals with various disabilities -->
 
 ---
-transition: fade-out
-layout: image-right
-image: assets/handicap_parking_marker.jpg
+layout: section
 ---
 
-## How?
+# How?
 
 ---
 layout: image-right
@@ -196,7 +183,6 @@ The `role` and `aria-label` attributes help assistive technologies understand th
     ...
 ```
 
-
 ---
 transition: fade-out
 ---
@@ -208,6 +194,57 @@ With `onkeypress` the link can be activated using the keyboard, not just with a 
 ```html
 <a href="#" onclick="openMenu()" onkeypress="openMenu()">Open Menu</a>
 ```
+
+---
+layout: section
+---
+
+# Accessibility Standards
+
+---
+transition: fade-out
+---
+
+
+# Web Content Accessibility Guidelines (WCAG)
+<a target="_blank" href="https://www.w3.org/WAI/standards-guidelines/wcag/" alt="WCAG">WCAG</a> specifies three different conformance levels they are:
+
+- A (lowest)
+- AA (mid range)
+- and AAA (highest)
+
+>  Level A sets a minimum level of accessibility and does not achieve broad accessibility for many situations. For this reason, UC recommends AA conformance for all Web-based information.
+
+---
+transition: fade-out
+---
+
+# WebAIM
+
+<a target="_blank" href="https://webaim.org/">WebAIM</a> provides a handy checklist with their recommendations.
+
+WebAIM specifies that accessible websites should be:
+
+- Perceivable
+- Operable
+- Understandable
+- Robust
+
+---
+transition: fade-out
+---
+
+# Tools and links
+## Links
+- <a href="https://accessibility.day/" target="_blank"> The GAAD Foundation</a>
+- <a href="https://www.w3.org/WAI/design-develop/" target="_blank">w3.org</a>
+- <a href="https://react-spectrum.adobe.com/react-spectrum/" target="_blank">React Spectrum</a>
+- <a href="https://inclusive.microsoft.design/" target="_blank">Microsoft</a>
+- <a href="https://pagespeed.web.dev/" target="_blank">Web.dev</a>
+
+## Linters
+
+- <a href="https://www.npmjs.com/package/eslint-plugin-jsx-a11y" target="_blank">eslint-plugin-jsx-a11y</a>
 
 ---
 transition: fade-out
