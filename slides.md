@@ -30,8 +30,11 @@ image: assets/handicap_parking_marker.jpg
 
 ---
 transition: fade-out
+layout: image-right
+image: assets/old-lady-crazy.gif
 ---
 
+## What is A11y ?
 
  When websites and web tools are properly designed and coded, people with disabilities can:
 
@@ -41,7 +44,10 @@ transition: fade-out
 
 ---
 transition: fade-out
+layout: two-cols
 ---
+
+## What is A11y ?
 
 Web accessibility encompasses all disabilities that affect access to the Web, including:
 
@@ -52,8 +58,8 @@ Web accessibility encompasses all disabilities that affect access to the Web, in
   - physical
   - speech
 
-<img width="500" src="assets/building-web-accessibility-barriers-guidelines-standards_01.jpg">
-
+::right::
+<img style="margin-top:30%" src="assets/building-web-accessibility-barriers-guidelines-standards_01.jpg" />
 ---
 transition: fade-out
 ---
