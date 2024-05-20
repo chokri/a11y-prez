@@ -108,18 +108,6 @@ Web accessibility relies on several components that work together. Some of these
 - User agents - software that people use to access web content, including desktop graphical browsers, voice browsers, mobile phone browsers, multimedia players, plug-ins, and some assistive technologies.
 - Authoring tools - software or services that people use to produce web content, including code editors, document conversion tools, content management systems, blogs, database scripts, and other tools.
 
---
-layout: two-cols
-layoutClass: gap-16
----
-
-
-Web accessibility relies on several components that work together. Some of these include:
-
-- Web content - refers to any part of a website, including text, images, forms, and multimedia, as well as any markup code, scripts, applications, and such.
-- User agents - software that people use to access web content, including desktop graphical browsers, voice browsers, mobile phone browsers, multimedia players, plug-ins, and some assistive technologies.
-- Authoring tools - software or services that people use to produce web content, including code editors, document conversion tools, content management systems, blogs, database scripts, and other tools.
-
 
 ---
 transition: fade-out
@@ -148,6 +136,32 @@ image: https://cover.sli.dev
         </ul>
     </nav>
 </header>
+```
+
+---
+transition: fade-out
+---
+
+# Use Semantic HTML
+
+Semantic HTML elements like `<article>`, `<nav>`, `<section>`, and `<aside>` provide meaningful information about the content of a page, which is especially helpful for screen readers and other assistive technologies. This makes web content more accessible to people with disabilities.
+
+```html {all|1|3|6|all} twoslash
+<main id="maincontent" role="main">
+    <article aria-labelledby="posttitle">
+        <header>
+            <h2 id="posttitle">Making Accessibility a Priority</h2>
+            <p><time datetime="2024-05-20">May 20, 2024</time></p>
+        </header>
+        <section>
+            <h3>Introduction</h3>
+            <p>Accessible web design is essential for all users...</p>
+        </section>
+        <footer>
+            <p>Posted by <a href="#authorbio" aria-describedby="authorname">Alex Doe</a></p>
+        </footer>
+    </article>
+    ...
 ```
 
 ---
@@ -191,6 +205,7 @@ With `onkeypress` the link can be activated using the keyboard, not just with a 
 
 ---
 transition: fade-out
+layout: center
 ---
 
 # Thank you
