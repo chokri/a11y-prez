@@ -254,3 +254,15 @@ layout: center
 ---
 
 # Thank you
+
+<a href="https://github.com/chokri" target="_blank" alt="GitHub" title="Open GitHub"
+    class="text-xl opacity-50 !border-none">
+    <carbon-logo-github /> chokri
+</a>
+
+<a href="https://twitter.com/shuck_" target="_blank" alt="Twitter" title="Open Twitter"
+    class="text-xl opacity-50 !border-none">
+    <carbon-logo-twitter /> @shuck_
+</a>
+
+
