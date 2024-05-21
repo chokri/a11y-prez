@@ -100,7 +100,7 @@ image: assets/Disabled-Student-Working.jpg
 - **Braille Readers**
 - **Mouth Sticks**
 - **Head Wand**
-- **Signle-switch access**
+- **Single-switch access**
 - **Sip and puff Sitch**
 - **Oversized trackball mouse**
 - **Adaptive Keyboard**
@@ -238,15 +238,13 @@ WebAIM specifies that accessible websites should be:
 transition: fade-out
 ---
 
-# Tools and links
 ## Links
+
 - <a href="https://accessibility.day/" target="_blank"> The GAAD Foundation</a>
 - <a href="https://www.w3.org/WAI/design-develop/" target="_blank">w3.org</a>
 - <a href="https://react-spectrum.adobe.com/react-spectrum/" target="_blank">React Spectrum</a>
 - <a href="https://inclusive.microsoft.design/" target="_blank">Microsoft</a>
 - <a href="https://pagespeed.web.dev/" target="_blank">Web.dev</a>
-
-## Linters
 
 - <a href="https://www.npmjs.com/package/eslint-plugin-jsx-a11y" target="_blank">eslint-plugin-jsx-a11y</a>
 
