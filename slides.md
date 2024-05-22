@@ -18,7 +18,7 @@ layout: center
 transition: fade-out
 ---
 
-<Toc />
+<Toc minDepth="1" maxDepth="2" />
 
 ---
 transition: fade-out
@@ -79,7 +79,7 @@ layout: image-right
 image: assets/old-lady-crazy.gif
 ---
 
-## 3 - Everyone is concerned 
+## 3 - Everyone is concerned
 
 Web accessibility also benefits people without disabilities, for example:
 
@@ -113,7 +113,7 @@ image: assets/Disabled-Student-Working.jpg
 layout: section
 ---
 
-# Accessibility In Practice 
+# Accessibility In Practice
 
 ---
 transition: fade-out
@@ -264,5 +264,3 @@ layout: center
     class="text-xl opacity-50 !border-none">
     <carbon-logo-twitter /> @shuck_
 </a>
-
-
