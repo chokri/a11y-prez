@@ -143,7 +143,7 @@ transition: fade-out
 
 Semantic HTML elements like `<article>`, `<nav>`, `<section>`, and `<aside>` provide meaningful information about the content of a page, which is especially helpful for screen readers and other assistive technologies. This makes web content more accessible to people with disabilities.
 
-```html {all|1|2|5|all} twoslash
+```html {all|1|2|3|all} twoslash
 <main id="maincontent" role="main">
     <article aria-labelledby="posttitle">
         <header>
