@@ -61,7 +61,7 @@ Web accessibility means making the internet work for everyone, no matter what ki
 - Speech
 
 ::right::
-<img style="margin-top:30%" src="assets/building-web-accessibility-barriers-guidelines-standards_01.jpg" />
+<img style="margin-top:30%" src="/assets/building-web-accessibility.jpg" />
 
 
 <!--
