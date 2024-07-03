@@ -14,7 +14,7 @@
     "@slidev/theme-seriph": "latest",
     "vue": "^3.4.29"
   },
-  "packageManager": "pnpm@9.1.1+sha1.09ada6cd05003e0ced25fb716f9fda4063ec2e3b",
+  "packageManager": "pnpm@9.5.0-beta.0+sha256.bd91cddc9b205c94b5bf0380cec8fc8e4b1dde7b8c5191732f3d4e73848e860e",
   "devDependencies": {
     "playwright-chromium": "^1.44.1"
   }
