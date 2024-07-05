@@ -26,7 +26,7 @@ layout: image-right
 image: assets/handicap_parking_marker.jpg
 ---
 
-## 1 - What is A11y?
+## 1 - What is the A11y?
 
 - **A11y** stands for __accessibility__.
 - With A11y, people with disabilities can:
